@@ -56,14 +56,14 @@ minetest.register_craftitem("potions:fly3_raw",{
 
 
 local ground_flowers = {
-	{ "flowers:dandelion_white 4", "ground_dandelion_white", "Ground White Dandelion" },
-	{ "flowers:dandelion_yellow 4", "ground_dandelion_yellow", "Ground Yellow Dandelion" },
-	{ "flowers:rose 4", "ground_rose", "Ground Rose" },
-	{ "flowers:geranium 4", "ground_geranium", "Ground Geranium" },
-	{ "flowers:tulip 4", "ground_tulip", "Ground Tulip" },
-	{ "flowers:viola 4", "ground_viola", "Ground Viola" },
-	{ "flowers:seaweed 4", "ground_seaweed", "Ground Seaweed" },
-	{ "flowers:waterlily 4", "ground_waterlily", "Ground Waterlily" }	
+	{ "flowers:dandelion_white", "ground_dandelion_white", "Ground White Dandelion" },
+	{ "flowers:dandelion_yellow", "ground_dandelion_yellow", "Ground Yellow Dandelion" },
+	{ "flowers:rose", "ground_rose", "Ground Rose" },
+	{ "flowers:geranium", "ground_geranium", "Ground Geranium" },
+	{ "flowers:tulip", "ground_tulip", "Ground Tulip" },
+	{ "flowers:viola", "ground_viola", "Ground Viola" },
+	{ "flowers:seaweed", "ground_seaweed", "Ground Seaweed" },
+	{ "flowers:waterlily", "ground_waterlily", "Ground Waterlily" }	
 }
 
 for _, data in pairs(ground_flowers) do
