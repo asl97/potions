@@ -130,7 +130,7 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type="shapeless",
-	output="postion:gravity1_raw",
+	output="potions:gravity1_raw",
 	recipe = {"dye:green","farming:wheat","potions:ground_seaweed","potions:ground_bones","default:mese_crystal_fragment","vessels:glass_bottle","bucket:bucket_water"}
 })
 
