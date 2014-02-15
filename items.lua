@@ -108,7 +108,8 @@ end
 minetest.register_craft({
 	type = "shapeless",
 	output = "potions:fly1_raw",
-	recipe = {"bushes:sugar","potions:ground_rose","potions:ground_seaweed","default:mese_crystal_fragment","vessels:glass_bottle","bucket:bucket_water","technic:mithril_dust"}	
+	recipe = {"bushes:sugar","potions:ground_rose","potions:ground_seaweed","default:mese_crystal_fragment","vessels:glass_bottle","bucket:bucket_water","technic:mithril_dust"},
+	replacements = { { "bucket:bucket_water","bucket:bucket_empty" } }	
 })
 
 minetest.register_craft({
@@ -120,7 +121,8 @@ minetest.register_craft({
 minetest.register_craft({
 	type = "shapeless",
 	output = "potions:fly2_raw",
-	recipe = {"bushes:sugar","technic:mithril_dust","potions:ground_rose","potions:ground_seaweed","potions:ground_seaweed","default:mese_crystal","vessels:glass_bottle","bucket:bucket_water","technic:mithril_dust"}	
+	recipe = {"bushes:sugar","technic:mithril_dust","potions:ground_rose","potions:ground_seaweed","potions:ground_seaweed","default:mese_crystal","vessels:glass_bottle","bucket:bucket_water","technic:mithril_dust"},
+	replacements = { { "bucket:bucket_water","bucket:bucket_empty" } }	
 })
 
 minetest.register_craft({
@@ -132,7 +134,8 @@ minetest.register_craft({
 minetest.register_craft({
 	type="shapeless",
 	output="potions:gravity1_raw",
-	recipe = {"dye:green","farming:wheat","potions:ground_seaweed","potions:ground_bones","default:mese_crystal_fragment","vessels:glass_bottle","bucket:bucket_water"}
+	recipe = {"dye:green","farming:wheat","potions:ground_seaweed","potions:ground_bones","default:mese_crystal_fragment","vessels:glass_bottle","bucket:bucket_water"},
+	replacements = { { "bucket:bucket_water","bucket:bucket_empty" } }
 })
 
 minetest.register_craft({
