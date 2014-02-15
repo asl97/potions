@@ -65,7 +65,8 @@ minetest.register_craftitem("potions:fly1_raw",{
 minetest.register_craftitem("potions:fly2_raw",{
 	description = "Level 2 Raw Fly Potion",
 	stack_max = 1,
-	liquids_pointable = false
+	liquids_pointable = false,
+	inventory_image = "potions_fly2_raw.png"
 })
 
 minetest.register_craftitem("potions:fly3_raw",{
