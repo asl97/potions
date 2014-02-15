@@ -77,7 +77,8 @@ minetest.register_craftitem("potions:fly3_raw",{
 minetest.register_craftitem("potions:gravity1_raw", {
 	description = "Level 1 Raw Anti Gravity Potion",
 	stack_max = 1,
-	liquids_pointable = false
+	liquids_pointable = false,
+	inventory_image = "potions_gravity1_raw.png",
 })
 
 
@@ -94,8 +95,7 @@ local ground_items = {
 }
 
 for _, data in pairs(ground_items) do
-	technic.register_grinder_recipe({input=data[1], output="potions:"..data[2]})
-	
+	technic.register_grinder_recipe({input=data[1], output="potions:"..data[2]})	
 	minetest.register_craftitem("potions:"..data[2],{
 		description = data[3],
 		stack_max = 99,
