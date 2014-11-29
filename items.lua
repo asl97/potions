@@ -96,7 +96,7 @@ local ground_items = {
 }
 
 for _, data in pairs(ground_items) do
-	technic.register_grinder_recipe({input=data[1], output="potions:"..data[2]})	
+	technic.register_grinder_recipe({input={data[1]}, output={"potions:"..data[2]}})	
 	minetest.register_craftitem("potions:"..data[2],{
 		description = data[3],
 		stack_max = 99,
